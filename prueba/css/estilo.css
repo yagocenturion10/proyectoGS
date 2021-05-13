@@ -28,7 +28,11 @@ header {
 
 
 #index-body {
+<<<<<<< HEAD
   background-image: url(back16.jpg);
+=======
+  background-image: url(../../../photo/back16.jpg);
+>>>>>>> e9eb478111a72b7a7e0bde8fb8ddba85e6dbe9fb
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
