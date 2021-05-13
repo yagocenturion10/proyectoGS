@@ -1,0 +1,17 @@
+
+Servidores, Seguridad y SEO para tu sitio
+
+1) Agregué titulos a cada una de las paginas,
+<title>	GS Fotografía | "Pagina en la que el usuario se encuentra" </title>
+
+2) Agregué keywords usando la etiqueta meta dentro del head de las paginas de mi sitio
+
+
+<meta name="keywords" content="Gian Scaduto, Fotografia, Estudio, Cuadros, Comodoro, Rivadavia, Sesiones, Eventos">
+
+3) Agregué una descripción que desearia que los motores de busqueda coloquen debajo de el link de mi sitio y de su url 
+
+
+<meta name="description" content="Somos un equipo dedicado a ofrecer servicios fotográficos y de producción de eventos; enfocados en brindar la mejor calidad en nuestros productos y servicios. Siendo recurso para nuestros clientes, creando valor a sus recuerdos desde la confianza y la calidad. Nuestra visión es inmortalizar momentos únicos e irrepetibles, creando empatía y confianza, desde nuestra creatividad y responsabilidad.Buscamos ser relevantes en la vida de quienes deseen registrar su máximo potencial en una imagen que los inspire."> 
+
+4) Optimicé un poco la carga de las imagenes jpg que se muestran en mi pagina comprimiendolas con Adobe Photoshop para mejorar la velocidad de carga de la pagina. 

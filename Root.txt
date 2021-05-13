@@ -1,0 +1,18 @@
+cd C:\Users\Yago\Documents\PROYECTOGS\prueba
+
+
+npm run watch-css
+
+
+
+npm install -d node-sass nodemon
+
+
+
+
+
+
+
+
+
+bg-light 

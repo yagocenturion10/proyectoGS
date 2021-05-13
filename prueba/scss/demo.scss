@@ -1,0 +1,180 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+html {
+  height: 101%;
+  scroll-behavior: smooth; }
+
+body {
+  position: relative;
+  font-size: 62.5%;
+  line-height: 1;
+  } 
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+header {
+  width: 100%;
+  z-index: 999; }
+
+
+
+
+
+#index-body {
+ 
+  background-image: url(back4.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#productos-body {
+  background-color: pink; }
+
+.header .navbar {
+  background-color: transparent !important; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+strong {
+  font-weight: bold; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  border: 0;
+  max-width: 100%; }
+
+p {
+  font-size: 1.2em;
+  line-height: 1.0em;
+  color: #333; }
+
+main {
+  min-height: 80%; }
+
+@font-face {
+  font-family: Raleway; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+
+li {
+  list-style: none; }
+
+a:focus, a:hover {
+  text-decoration: none;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease; }
+
+a:focus {
+  outline: 0; }
+
+img {
+  max-width: 100%; }
+
+p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #898b96;
+  font-weight: 300; }
+
+h4 {
+  margin: 0;
+  font-weight: 400;
+  padding: 0;
+  color: #363940; }
+
+a {
+  color: #5867dd; }
+
+.footer {
+  background: #152F4F;
+  color: white; }
+
+
+
+
+//animaciones//
+
+div#navmenu ul li a
+{
+    color: #FFF;
+    text-decoration: none;
+    font: 20px Raleway;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+
+
+div#navmenu a:before, div#navmenu a:after
+{
+    position: absolute;
+    opacity: 0;
+    font-size: 35px;
+    top: 0px;
+    transition: all 0.3s;
+}
+
+div#navmenu a:before
+{
+    content: '(';
+    left: 0px;
+    transform: translateX(10px);
+}
+
+div#navmenu a:after
+{
+    content: ')';
+    right: 0px;
+    transform: translateX(-10px);
+}
+
+div#navmenu a:hover:before, div#navmenu a:hover:after
+{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+
+
+
+
+//animaciones//
+
+
+//Bem//
+
+.noticia { 
+
+font-weight: bold;
+
+}
+
+
+.noticia__titulo {
+  
+  color: red;
+}
+
+
+#mapita {
+  
+  height:100%
+}
