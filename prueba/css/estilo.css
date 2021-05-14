@@ -167,3 +167,24 @@ div#navmenu a:hover:before, div#navmenu a:hover:after {
 
 
 
+
+/** CUSTOMIZACION DE EL NAV TOGGLER**/ 
+
+
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+}
+
+
+
+/** MEDIA QUERIES**/ 
+
+
+@media (min-width: 62em   /* 62em = 992px */ )  {
+
+  button {
+    display: none;
+  }
+
