@@ -128,6 +128,9 @@ a {
   background: #152F4F;
   color: white; }
 
+
+/** CUSTOMIZACION DE EL NAV TOGGLER **/
+
 div#navmenu ul li a {
   color: #FFF;
   text-decoration: none;
@@ -168,7 +171,9 @@ div#navmenu a:hover:before, div#navmenu a:hover:after {
 
 
 
-/** CUSTOMIZACION DE EL NAV TOGGLER**/ 
+
+/** CUSTOMIZACION DE EL NAV TOGGLER **/
+ 
 
 
 
@@ -179,12 +184,21 @@ div#navmenu a:hover:before, div#navmenu a:hover:after {
 
 
 
+
+
+
+
 /** MEDIA QUERIES**/ 
 
 
 @media (min-width: 62em   /* 62em = 992px */ )  {
 
   button {
-    display: none;
+    display: none; }
+
+
+
   }
+
+
 
