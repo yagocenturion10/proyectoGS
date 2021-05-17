@@ -16,6 +16,8 @@ header {
   z-index: 999;
    }
 
+
+
 .blureado {
   
   width: 100%;
@@ -29,33 +31,33 @@ header {
 
 #index-body {
 
-  background-image: url(back16.jpg);
+  background-image: url(back4.jpg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
 
 #productos-body {
-  background-color: pink; }
+  background-color: gray; }
 
 #eventosbody {
-  background-color: pink;
+  background-color: gray;
 
 }
 #clientesbody {
-background-color: pink;
+background-color: gray;
 
 }
 
 #biobody{
 
- background-color: pink;
+ background-color: gray;
 
 }
 
 #contactobody {
 
-  background-color: pink;
+  background-color: gray;
 }
 
 ol, ul {
@@ -163,14 +165,22 @@ div#navmenu a:hover:before, div#navmenu a:hover:after {
   transform: translateX(0px); }
 
 .noticia {
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 16px; }
 
 .noticia__titulo {
   color: red; }
 
 
+p {
+    color: black;
+    font-size: 1rem;
+}
 
 
+h1.eventosinfo {
+  font-size: 1.2rem;
+}
 
 /** CUSTOMIZACION DE EL NAV TOGGLER **/
  
@@ -200,5 +210,18 @@ div#navmenu a:hover:before, div#navmenu a:hover:after {
 
   }
 
+
+
+@media (max-width: 62em   /* 62em = 992px */ )  {
+
+
+
+h1,h2, h3 {
+
+font-size: 1rem
+
+}
+
+}
 
 
